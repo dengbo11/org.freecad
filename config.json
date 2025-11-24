@@ -1,0 +1,6 @@
+{
+  "app_name": "FreeCAD",
+  "version_url": "https://api.github.com/repos/FreeCAD/FreeCAD/releases/latest",
+  "version_pattern": "\"tag_name\":\\s*\"([^\"]+)\"",
+  "download_url_template": "https://github.com/FreeCAD/FreeCAD/releases/download/{version}/FreeCAD_{version}-conda-Linux-{arch}-py311.AppImage"
+}
